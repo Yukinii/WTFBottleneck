@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WTFBottleneck"
         mc:Ignorable="d"
-        Title="WTF Bottleneck" Height="350" Width="525">
+        Title="WTF Bottleneck" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
-        
+        <ScrollViewer>
+            <StackPanel Name="Stackpanel">
+                
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
